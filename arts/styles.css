@@ -5,10 +5,12 @@ body{
     background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
     background-size: cover;
     background-position: center;
-    font-size: 100px;
+    font-size: 75px;
     font-weight: bold;
     color: khaki;
     text-align: center;
+    padding: 20.00px;
+    margin: 1px;
 }
 h2{
     font-size: 32px;
