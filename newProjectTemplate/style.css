@@ -1,0 +1,88 @@
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+  6. Page Styles
+======================================== */
+
+/* 1. Global Styles
+======================================== */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    
+  }
+  body {
+    
+  }
+  
+  /* 2. Typography Styles
+  ======================================== */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    line-height: 1.25;
+    margin-bottom: 15px;
+    transition: font-size 0.25s ease;
+  }
+  h1 {
+    font-size: calc(100px / 1.5);
+    line-height: 0.85;
+  }
+  h2 {
+    font-size: calc(65px / 1.5);
+    margin-top: 10px;
+    line-height: 0.85;
+  }
+  @media(min-width: 720px) {
+   
+    }
+  @media(min-width: 1024px) {
+   
+  }
+  p {
+  }
+  a {
+  }
+  ul {
+  }
+  li {
+  }
+  img {
+    width: 100%;
+  }
+  
+  /* 3. Structure Styles
+  ======================================== */
+ 
+  /* 4. Modules Styles
+  ======================================== */
+  
+  /* Site Navigation */
+  
+  
+  /* Site Footer */
+  
+  
+  /* 5. Component Styles
+  ======================================== */
+  
+  
+  /* 6. Page Styles
+  ======================================== */  
+  @media (min-width: 585px) {
+     }
+  @media (min-width: 720px) {
+   }
+  @media (min-width: 1024px) {
+  }
+  
