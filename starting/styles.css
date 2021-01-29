@@ -1,0 +1,33 @@
+.container {
+    border: 2px solid black;
+    padding-left: 20px;
+    width: 90%;
+    position: absolute;
+    left: 30px;
+}
+
+.color-panel {
+    display: inline-block;
+    border: 2px solid black;
+    width: 200px;
+    margin: 50px;
+    text-align: center;
+}
+
+.red {
+    background-color: red;
+}
+.white {
+
+}
+.blue {
+    background-color: blue;
+    color: white;
+}
+.purple {
+    background-color: purple;
+    color: white;
+}
+
+
+
