@@ -2,6 +2,9 @@
 <html>
     <head>
         <title>StyleGuide</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Source+Code+Pro:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+        <!--<link rel="stylesheet" href="reset.css" type="text/css">-->
         <link href="styles.css" type="text/css" rel="stylesheet">
 
     </head>
@@ -10,33 +13,81 @@
     </header>
     <body>
         <div class="container">
-            <h2>Color Scheme</h2>
+            <h2 class="scheme-header">Color Scheme</h2>
             <div class="color-container">
                 <div class="color-panel red">
                     <p class="colorlabel">Red</p>
-                    <p class="colorhex">##</p>
+                    <p class="colorhex">Hex: #999999</p>
                 </div>
                 <div class="color-panel white">
-                    <p class="colorlabel">white</p>
-                    <p class="colorhex">##</p>
+                    <p class="colorlabel">White</p>
+                    <p class="colorhex">Hex: #999999</p>
                 </div>
                 <div class="color-panel blue">
-                    <p class="colorlabel">blue</p>
-                    <p class="colorhex">##</p>
+                    <p class="colorlabel">Blue</p>
+                    <p class="colorhex">Hex: #999999</p>
                 </div>
                 <div class="color-panel purple">
-                    <p class="colorlabel">purple</p>
-                    <p class="colorhex">##</p>
+                    <p class="colorlabel">Purple</p>
+                    <p class="colorhex">Hex: #999999</p>
                 </div>
             </div>
-
-
-            
-
         </div>
 
+        <div class="container-fontmain">
+            <h2 class="text-header">Fonts</h2>
+       
+          <div class="fonts-container">
+            <div class="font-stylescp">
+                <h2 class="underline">Source Code Pro</h2>
+                <p class="norm">The quick brown fox jumps over the lazy dog.</p>
+                <p class="ital">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+            </div>
 
+            <div class="font-stylerob">
+                <h2 class="underline">Roboto</h2>
+                <p class="norm">The quick brown fox jumps over the lazy dog.</p>
+                <p class="ital">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+
+            </div>
+
+            <div class="font-stylepop">
+                <h2 class="underline">Poppins</h2>
+                <p class="norm">The quick brown fox jumps over the lazy dog.</p>
+                <p class="ital">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold">The quick brown fox jumps over the lazy dog.</p>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="container-textstyle">
+            <h2 class="text-header">Text Styles</h2>
+            <div class="text-container">
+                <h1 id="h1style">H1: Main page heading</h1>
+                <ul>
+                    <li>Font-weight: 700 (bold)</li>
+                    <li>Font-size: 26px</li>
+                    <li>Font-family: Roboto</li>
+                </ul>
+
+                <h2 id="h2style">H2: Subheading</h2>
+                <ul>
+                    <li>Font-weight: 500</li>
+                    <li>Font-size: 18px</li>
+                    <li>Font-family: Poppins</li>
+                </ul>
+
+                <p id="pstyle">P: Paragraph text</p>
+                <ul>
+                    <li>Font-weight: 400 (regular)</li>
+                    <li>Font-size: 14px</li>
+                    <li>Font-family: Poppins</li>
+                </ul>
+                
+            </div>
+        </div>
     </body>
-
-
 </html>

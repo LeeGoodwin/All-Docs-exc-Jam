@@ -1,21 +1,28 @@
+
 .container {
     border: 2px solid black;
     padding-left: 20px;
     width: 90%;
-    position: absolute;
+    position: relative;
     left: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.scheme-header {
+    margin-bottom: 1px;
 }
 
 .color-panel {
     display: inline-block;
     border: 2px solid black;
     width: 200px;
-    margin: 50px;
+    margin: 45px;
     text-align: center;
 }
 
 .red {
     background-color: red;
+    margin-left: 175px;
 }
 .white {
 
@@ -29,5 +36,73 @@
     color: white;
 }
 
+.container-fontmain, .container-textstyle {
+    width: 45%;
+    border: 2px solid black;
+    display: inline-block;
+    vertical-align: top;
+    height: 630px;
+    overflow: scroll;
+}
 
+.container-fontmain {
+    margin-left: 30px;
+    margin-right: 12px;
+    
+}
+
+.text-container {
+    margin-left: 50px;
+}
+
+.text-header {
+    margin-left: 15px;
+
+}
+
+.font-stylescp, .font-stylerob, .font-stylepop {
+    margin: 0 50px;
+    width: 50%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.ital {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.font-stylescp {
+    font-family: "Source Code Pro";
+}
+
+#h1style {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: "Roboto";
+}
+#h2style {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Poppins";
+}
+
+#pstyle {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Poppins";
+}
+
+.font-stylerob {
+    font-family: "Roboto";
+}
+
+.font-stylepop {
+    font-family: "Poppins";
+}
 
