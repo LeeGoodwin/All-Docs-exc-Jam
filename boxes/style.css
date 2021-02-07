@@ -1,0 +1,130 @@
+body {
+    background-color: grey;
+    margin: 0;
+}
+.navbar {
+   
+    margin-bottom: 10px;
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: inline-block;
+    vertical-align: bottom;
+    position: fixed;
+    z-index: 10;
+}
+
+.navbar img{
+        display: inline-block;
+        height: 100px;
+        box-sizing: border-box;
+    }
+    
+    .navbar a {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 24px;
+        color: grey;
+        vertical-align: 90%;
+        margin-left: 25px;
+    }
+
+}
+.m {
+    position: relative;
+    top:120px;
+    width: 100%; 
+}
+
+.new {
+    position: relative;
+    top: 120px;
+}
+
+.box {
+    border: 2px solid black;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.box1 {
+    background-color: chartreuse;    
+}
+.box2{
+    background-color: yellow;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+
+.box3 {
+    background-color: orangered;
+    width: 250px;
+    display: inline-block;
+    margin-left: 250px;
+    
+}
+.box4 {
+    background-color: orchid;
+    width: 250px;
+    display: inline-block;
+    
+}
+.box5 {
+    background-color: rgb(42, 194, 181);
+}
+.box6 {
+    background-color: rgb(116, 134, 9);
+    float: left;
+}
+.box7 {
+    background-color: rgb(233, 91, 197);
+    float: left;
+}
+.box8 {
+    clear: both;
+
+    background-color: blue;
+    width: 82%;
+    color: white;
+}
+.box9 {
+    background-color: rgb(22, 165, 184);
+}
+.box10 {
+    background-color: rgb(230, 120, 120);
+}
+.box11 {
+    background-color: rgb(30, 65, 70);
+}
+.box12 {
+    background-color: rgba(0, 89, 255, 0.781);
+}
+.box13 {
+    background-color: rgb(250, 231, 65);
+}
+.box14 {
+    background-color: rgb(16, 218, 157);
+}
+.box15 {
+    background-color: rgb(199, 31, 101);
+}
+.box16 {
+    background-color: rgb(98, 164, 168);
+}
+.box17 {
+    background-color: rgb(255, 251, 0);
+}
+.box18 {
+    background-color: rgb(24, 79, 180);
+}
+.box19 {
+    background-color: rgb(30, 175, 86);
+}
+.box20 {
+    background-color: rgb(233, 86, 189);
+}
+
+
