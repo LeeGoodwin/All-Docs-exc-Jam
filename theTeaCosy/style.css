@@ -1,0 +1,33 @@
+html {
+    font-size: 22px;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+    font-family: Helvetica;
+    color: seashell;
+}
+
+.container {
+    display: flex;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 80%;
+}
+
+.monthimage {
+    display: flex;
+}
+
+.monthimage img {
+    height: 200px;
+    width: 300px;
+}
