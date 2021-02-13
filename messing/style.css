@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    background-color: black;
+    color: gold;
+    text-align: center;
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.cont-text {
+    border: 2px solid grey;
+    margin: 0%;
+    padding: 0%;
+}
+
+.container h1, h2 {
+    border: 2px solid white;
+    
+}

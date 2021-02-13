@@ -4,32 +4,45 @@
         <title>The Tea Cozy</title>
         <link href="style.css" type="text/css"  rel="stylesheet"  >
     </head>
-    <body>
+    
         <!-- Nav bar with logo -->
-        <Div class="container navbar">
+
+        <Header class="container-logo">
+            <div class="navbar-div">
+              <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="logo" class="logo">
+              <nav class="navbar">
+                   <ul class="navlinks">
+                      <li><a href="#">Mission</a></li>
+                      <li><a href="#">Featured Tea</a></li>
+                      <li><a href="#">Locations</a></li>
+                    </ul>
+               </nav>
+            </div>
+        </Header>
+
+        <!-- <Div class="navbar">
             <div id="logo">
                 <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-logo.png" alt="Tea Cosy written in fancy writting">
                 <a href="#">Mission</a>
                 <a href="#">Featured Tea</a>
                 <a href="#">Locations</a> 
             </div>
-        </Div>
+        </Div> -->
 
         <!-- Hero -->
-      <div class="container">
-        <div class="hero">
+    <body>
+      <div class="containerhero">
             <h2>Our Mission</h2>
             <h4>Handpicked, Artisanally Curated, Free Range, Sustainable, Small Batch, Fair Trade, Organic Tea</h4>
-        </div>
       </div>
 
         <!-- Tea of the month -->
-        <div class="container month">
+        <div class="month">
             <div class="monthheader">
-                <p>Tea of the Month</p>
-                <p>What's Steeping at The Tea Cozy?</p>
+                <h2>Tea of the Month</h2>
+                <h4>What's Steeping at The Tea Cozy?</h4>
             </div>
-            <div class="monthimage">
+            <div class="monthimage1">
                 <div>
                     <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-berryblitz.jpg" alt="cup of berry tea">
                     <p>Fall Berry Blitz Tea</p>
@@ -44,7 +57,8 @@
                     <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-donut.jpg" alt="Tasty looking donut">
                     <p>Seasonal Donuts</p>
                 </div>
-
+            </div>
+            <div class="monthimage2">
                 <div>
                     <img src="https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg" alt="cup of mrytle avenue tea">
                     <p>Mrytle Ave Tea</p>
@@ -59,10 +73,11 @@
 
         <!-- Locations -->
 
-        <div class="container locations">
+        <div class="container-locations">
             <div>
-                <h3>Locations</h3>
+                <h3 class="locations-title">Locations</h3>
             </div>
+          <div class="squares">
             <div class="square">
                 <h3>Downtown</h3>
                 <p>384 West 4th St</p>
@@ -81,6 +96,7 @@
                 <p>Second Floor</p>
                 <p>Portland, Maine</p>
             </div>
+          </div>
         </div>
 
         <!-- Contacts -->
