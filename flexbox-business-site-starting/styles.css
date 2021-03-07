@@ -22,7 +22,14 @@ body {
     
 }
 
+.navlist {
+    border: 2px solid gold;
+}
+
+
+
 .navbar li {
+    padding: .5em;
 }
 
 .logo {
@@ -36,13 +43,13 @@ body {
 
 .hero {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
     grid-template-areas: 
-        "title . . ."
-        ". next next ."
-        ". . . ."
-        ". . . .";
+        "title title title"
+        ". next next"
+        ". . ."
+        ". . .";
    
     
     background-image: url("https://www.princess.co.uk/wp-content/uploads/2020/11/y78-exterior-cockpit-02-1800x1000.jpg");
@@ -52,21 +59,24 @@ body {
 }
 
 .herotitle1 {
-    grid-area: 1;
+    grid-area: title;
     justify-items: end;
-    align-self: end;
-    
+    align-self: center; 
+    margin-left: 2em;
+    width: 60%;
 }
 
 .herotitle2 {
-    grid-area: next;
-    
+    grid-area: title;
+    align-self: end;
+    margin-left: 6em;
 }
 
 .hero h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 7ems;
+    font-family: 'Orbitron', cursive;
+    font-size: 2em;
     margin: 2%;
+    
 }
 
 /* Hook */
@@ -138,4 +148,43 @@ body {
     text-decoration: underline;
 }
 
+/* Footer */
 
+.foot {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: slategray;
+    color: rgb(250, 255, 255);
+    border-top:.5em solid white;
+}
+
+.footnav, .footcon {
+    padding: 1em;
+}
+
+.foot h3 {
+    padding-bottom: .75em;
+}
+
+.footphone {
+    margin-bottom: 1.5em;
+    background-color: white;
+    color: black;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: .75em;
+    padding-right: .75em;
+    border-radius: .85em;
+}
+
+.foot li, .foot ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.foot a {
+    text-decoration: none;
+    color: rgb(250, 255, 255);
+}
