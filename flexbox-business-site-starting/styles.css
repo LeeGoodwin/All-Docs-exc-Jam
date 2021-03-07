@@ -38,6 +38,11 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+        "title . . ."
+        ". next next ."
+        ". . . ."
+        ". . . .";
    
     
     background-image: url("https://www.princess.co.uk/wp-content/uploads/2020/11/y78-exterior-cockpit-02-1800x1000.jpg");
@@ -46,7 +51,19 @@ body {
     color: rgb(250, 255, 255);
 }
 
-.herotitle1, .herotitle2 {
+.herotitle1 {
+    grid-area: 1;
+    justify-items: end;
+    align-self: end;
+    
+}
+
+.herotitle2 {
+    grid-area: next;
+    
+}
+
+.hero h1 {
     font-family: 'Indie Flower', cursive;
     font-size: 7ems;
     margin: 2%;
@@ -56,7 +73,7 @@ body {
 
 .hook {
     height: 200px;
-    background-color: #327EAE;
+    background-color: rgb(27, 61, 86);
     color: rgb(205, 211, 211);
     display: flex;
     flex-direction: column;
@@ -67,14 +84,58 @@ body {
 /* Type */
 
 .type {
-    display: grid;
-    grid-column: 1fr 1fr;
-    grid-row: 1fr 1fr 1fr 1fr;
-    margin: 0;
-    max-width: 100%;
-    
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-image: url("https://www.insideedition.com/sites/default/files/styles/931x523/public/images/2019-09/092119-underwater-1280x720.jpg?h=c673cd1c&itok=r7vzIcLk");
+    background-size: cover;
+    height: auto;
 }
 
+.type img {
+    margin: 25px;
+}
+
+/* Who */
+
+.whocontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 1em;
+    justify-items: center;
+    align-items: center;
+    margin-top: 1em;
+    
+}
+
+.whocontainer img {
+    height: 150px;
+    width: 150px;
+}
+
+.whobio2 {
+    margin-left: 1em;
+}
+
+.whobio2 {
+    padding: .5em;
+}
+
+.whobio1, .whobio3 {
+    background-color: rgb(27, 61, 86);
+    color: rgb(250, 255, 255);
+    padding: .5em;
+}
+
+.name {
+    font-weight: bold;
+    margin-top: .25em;
+    margin-bottom: .25em;
+    color: goldenrod;
+}
+
+.whocontainer h3 {
+    text-decoration: underline;
+}
 
 
