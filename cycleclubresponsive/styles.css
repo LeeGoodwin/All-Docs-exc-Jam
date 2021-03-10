@@ -1,0 +1,115 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/* Nav Bar */
+
+.navbar {
+    background-color: black;
+}
+
+.navbar li, a, button {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.navbar img {
+    height: 4em;
+    width: auto;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.navlinks {
+    list-style: none;
+}
+
+.navlinks li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navlinks li a {
+    transition: all 0.3s ease 0s;
+}
+
+.navlinks li a:hover {
+    color: #0088a9;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.7);
+}
+
+/* Hero */
+
+.hero {
+    height: 40vh;
+    background-image: url(..//cycleclubresponsive/images/heroimg.jpeg);
+    background-size: cover;
+}
+
+.herotitle {
+    color: white;
+    background-color: rgba(0, 136, 169, 0.7);
+    width: 40vw;
+    text-align: center;
+    
+}
+
+ .herotitcontainer {
+    margin-top: 1.5em;
+    margin-left: 1.5em;
+}
+
+/* More About The club */
+
+.what {
+    background-color: rgba(0, 136, 169, 1);
+    color: whitesmoke;
+}
+
+.what h2 {
+    padding-top: 1em;
+    padding-left: .35em;
+    padding-right: .35em;
+}
+
+.what p {
+    padding: 1em 0.35em;
+}
+
+/* First Image Section */
+
+.firstimages, .secondimages {
+    width: fit-content;
+    height: auto;
+}
+
+
+
