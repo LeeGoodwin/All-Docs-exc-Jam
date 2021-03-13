@@ -4,7 +4,10 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+}
 
+body {
+    background-color: rgba(0, 136, 169, 1);
 }
 
 /* Nav Bar */
@@ -80,10 +83,10 @@ button:hover {
     width: 40vw;
     text-align: center;
     
+    
 }
 
  .herotitcontainer {
-    margin-top: 1.5em;
     margin-left: 1.5em;
 }
 
@@ -106,10 +109,96 @@ button:hover {
 
 /* First Image Section */
 
-.firstimages, .secondimages {
-    width: fit-content;
-    height: auto;
+.firstimages img, .secondimages img{
+    max-width: 100%;
+    padding: 0.5em;
+    display: block;
+    background-color: rgba(0, 136, 169, 1);
 }
+
+/* MEETINGS */
+
+.meet {
+    background-color: rgba(0, 136, 169, 1);
+    color: whitesmoke;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: .35em;
+    padding-right: .35em;
+}
+
+.meet h2 {
+    padding-bottom: 1em;
+}
+
+#meetday {
+    font-weight: bold;
+    line-height: .25em;
+}
+
+/* Footer */
+
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100vw;
+    background-color: black;
+    color: whitesmoke;
+    height: 3em;
+    
+}
+
+.footer ul {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-evenly;
+   
+}
+
+.footer li {
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-evenly;
+    padding: 1em 1em;
+}
+
+
+@media only screen and (min-width: 780px) {
+
+.hero {
+    height: 60vh;
+}
+
+.herotitle {
+    max-width: 310px;
+    
+}
+
+.firstimages, .secondimages {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    background-color: rgba(0, 136, 169, 1);
+}
+
+.firstimages img, .secondimages img{
+    max-width: 32%;
+}
+
+.secondimages {
+    padding-bottom: 1em;
+}
+
+.what h2, .what p {
+    margin-left: 2%;
+    max-width: 70%;
+}
+
+.meet h2, .meet p {
+    margin-left: 2%;
+}
+
 
 
 
