@@ -66,4 +66,4 @@ const alSmith = new HighSchool('Al E. Smith', 415, ['Baseball', 'Basketball', 'V
 
 alSmith.quickFacts();
 
-console.log(alSmith.sportsTeams);
+console.log(alSmith.sportsTeams); 
