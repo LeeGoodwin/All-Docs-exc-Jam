@@ -39,7 +39,7 @@ describe('Rooster', () => {
       const expected = RangeError;
       // Uses the throw error within index.js code block, as this exists we are checking to see it has thrown that not varifying here. 
       
-      //VARIFY - includes assertation see above.
+      //VARIFY - includes assertion see above.
       assert.throws(() => {
         Rooster.timeAtDawn(inputNumber); 
       }, expected);
